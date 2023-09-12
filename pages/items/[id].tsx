@@ -8,7 +8,7 @@ import { ProductContext } from "../_app";
 const products = [
   {
     name: "Superteam Tee",
-    price: 0.01,
+    price: 20,
     image:
       "https://merch.superteam.fun/wp-content/uploads/2023/06/Solana-Purple-Back.png",
     description: "Grab at just $1 with Superteam Coupon NFT",
