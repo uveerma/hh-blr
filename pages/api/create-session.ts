@@ -12,7 +12,7 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
         tokens: ["samo", "bonk", "isc"],
         items: items,
         discounts: {
-          collection_id: "6EFo1dmcW5TTMXjkK7pr3bXR7dSwF6MjaBEhseYEd5ix",
+          collection_id: "J3CQs9xfn5YAPU1pP3YhdMLQcJuRtuFZBfDJSxxuwxof",
           discount: 0.95,
           name: "Coupon NFT",
           image:
