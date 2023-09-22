@@ -6,11 +6,11 @@ const Home: NextPage = () => {
   const products = [
     {
       id: 1,
-      name: "Superteam Tee",
-      price: 20,
+      name: "Samoyedcoin Tshirt",
+      price: 5,
       image:
-        "https://merch.superteam.fun/wp-content/uploads/2023/06/Solana-Purple-Back.png",
-      description: "Grab at just $1 with Superteam Coupon NFT",
+        "https://res.cloudinary.com/dtzqgftjk/image/upload/v1695371384/IMG_2241_r1a7u5.jpg",
+      description: "170$ SAMO instantly sent to your wallet on purchase 💸!",
     },
   ];
   const router = useRouter();

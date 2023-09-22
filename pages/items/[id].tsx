@@ -7,11 +7,11 @@ import { Checkout } from "../../components/checkout";
 import { ProductContext } from "../_app";
 const products = [
   {
-    name: "Superteam Tee",
-    price: 20,
+    name: "Samoyedcoin Tshirt",
+    price: 5,
     image:
-      "https://merch.superteam.fun/wp-content/uploads/2023/06/Solana-Purple-Back.png",
-    description: "Grab at just $1 with Superteam Coupon NFT",
+      "https://res.cloudinary.com/dtzqgftjk/image/upload/v1695371384/IMG_2241_r1a7u5.jpg",
+    description: "",
   },
 ];
 
@@ -57,13 +57,9 @@ const Item = () => {
                     $ {product?.price}
                   </p>
                 </div>
-                <div className="mt-10 text-lg font-medium tracking-tight text-gray-700">
-                  {product.description} 🎁
-                </div>
                 <div className="mt-3 text-lg font-medium tracking-tight text-gray-700">
-                  Rewards: <span className="text-indigo-600">SAMO, ISC</span> &{" "}
-                  <span className="text-indigo-600 ml-1">BONK</span> instantly
-                  sent to your wallet on purchase 💸!
+                  Rewards: 170 <span className="text-indigo-600">$SAMO</span>{" "}
+                  instantly sent to your wallet on purchase 💸!
                 </div>
 
                 <h1 className="mb-3 mt-10">Quantity</h1>
