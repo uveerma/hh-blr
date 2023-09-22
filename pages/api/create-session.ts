@@ -9,15 +9,8 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
       const response = await candypay.session.create({
         success_url: "https://hh-blr.vercel.app/items/1",
         cancel_url: "https://hh-blr.vercel.app/items/1",
-        tokens: ["samo", "bonk", "isc"],
+        tokens: ["samo"],
         items: items,
-        discounts: {
-          collection_id: "J3CQs9xfn5YAPU1pP3YhdMLQcJuRtuFZBfDJSxxuwxof",
-          discount: 0.95,
-          name: "Coupon NFT",
-          image:
-            "https://merch.superteam.fun/wp-content/uploads/2021/04/Clubhouse-Back.png",
-        },
       });
 
       return res.status(200).json(response);
